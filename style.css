@@ -1,5 +1,12 @@
 body{
     color: red;
     background-color: black;
+<<<<<<< HEAD
     font-size: large;
+=======
+    font-size: xx-large;
+}
+title{
+    color: red;
+>>>>>>> 3laa
 }
