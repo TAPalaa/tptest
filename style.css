@@ -1,0 +1,104 @@
+
+*{
+    transition: all 0.5s ease-in-out;
+}
+
+body{
+    background-color: rgb(49, 49, 49);
+}
+
+.PROJ , .rubic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 200px;
+
+}
+
+.PROJ * , .rubic *{
+    width: 650px;
+}
+
+strong{
+    position: absolute;
+    font-size: 6em;
+    transform: translate(100PX ,-150px);
+    COLOR: #ffffff9c;
+}
+
+.c{
+    text-decoration: none;
+    color: #b75f34;
+    font-size: 2em;
+    margin: 20px;
+    padding: 30px;
+    background: linear-gradient(rgb(0, 0, 0), rgb(34, 0, 129), rgb(0, 149, 175));
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 20px 6px #6977c5;
+    text-shadow: 10px 10px 5px rgb(0, 162, 255);
+    position: relative;
+    z-index: 4;
+}
+.r1{
+    background: #000000;
+    width: 350px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3em;
+    text-decoration: none;
+    color: rgb(0, 9, 138);
+    box-shadow: 5px 5px 20px 7px rgb(118, 189, 255);
+    border-radius: 20px;
+    transform: translate(200px, -270px) rotate(-10deg);
+}
+.r1 a{
+    text-decoration: none;
+    color: inherit;
+}
+.r2{
+    background: #000000;
+    width: 350px;
+    height: 70px;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3em;
+    text-decoration: none;
+    color: rgb(0, 107, 48);
+    box-shadow: 5px 5px 20px 7px rgb(137, 233, 150);
+    border-radius: 20px;
+    transform: translate(200px, -240px) rotate(5deg);
+}
+}
+.r2 a{
+    text-decoration: none;
+    color: inherit;
+}
+.r3{
+    background: #000000;
+    width: 350px;
+    height: 70px;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3em;
+    text-decoration: none;
+    color: rgb(137, 233, 150);
+    box-shadow: 5px 5px 20px 7px rgb(137, 233, 150);
+    border-radius: 20px;
+    transform: translate(150px, -235px) rotate(10deg);
+}
+.r3 a{
+    text-decoration: none;
+    color: inherit;
+}
+
